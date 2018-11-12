@@ -112,28 +112,64 @@ True/False
 
   ​		print('You are not Alice, kiddo.')
 
-####2.7.4 while 循环语句
+  > 02_vampire.py
+  >
+  > 03_vampire2.py
+  >
+  > 04_littleKid.py
 
-####2.7.5 恼人的循环 
+#### 2.7.4 while 循环语句
 
-####2.7.6 break 语句 
+只要while 语句的条件为 True，while子句中的代码就会执行。
 
-####2.7.7 continue 语句
+```python
+ spam = 0
+ while spam < 5:
+    print('Hello, world.')
+    spam = spam + 1
+```
 
-####2.7.8 for 循环和 range()函数 
+#### 2.7.5 恼人的循环
+
+> 05_yourName.py
+
+#### 2.7.6 break 语句
+
+- 如果执行遇到 break 语句，就马上退出 while 循环。
+- 只能在 while 和for 循环内部使用 continue 和 break 语句。
+
+> 06_yourName2.py
+
+#### 2.7.7 continue 语句
+
+- 只能在 while 和for 循环内部使用 continue 和 break 语句。
+
+> 07_sowrdfish.py
+
+#### 2.7.8 for 循环和 range()函数
+
+- 循环执行代码指定次数；
+
+> 08_fiveTimes.py
 
 ####2.7.9 等价的 while 循环
 
-目录
-##第一部分 Python 编程基础
- 目录
-###2.8
-###2.9
-###2.10
-###2.11
-##第 3 章
-###3.1
+### 2.8 导入模块
+
+- import 关键字
+
+> 09_printRandom.py
+
+### 2.9 用sys.exit() 提前结束程序
+
+##第 3 章 函数
+
+### 3.1 def 语句和参数
+
+> 11_helloFunc2.py
+
 ###3.2
+
 ###3.3
 ###3.4
 ###3.5
@@ -698,4 +734,5 @@ cron  296
 ###1..14.1 看起来很忙 .373
 ###1..14.2 即时通信机器人 .373
 ###1..14.3 玩游戏机器人指南 .374
+
 
