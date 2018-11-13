@@ -162,15 +162,24 @@ True/False
 
 ### 2.9 用sys.exit() 提前结束程序
 
+> 10_exitExample.py
+
 ##第 3 章 函数
 
 ### 3.1 def 语句和参数
 
-> 11_helloFunc2.py
+> 11_helloFunc.py
+>
+> 12_helloFunc2.py
 
-###3.2
+### 3.2 返回值和 return 语句
 
-###3.3
+> 13_magic8Ball.py
+
+### 3.3 None值
+
+- None 相当于ruby中的nil
+
 ###3.4
 ###3.5
 ###2.7.10 range()的开始、停止和 步长参数 . 39
