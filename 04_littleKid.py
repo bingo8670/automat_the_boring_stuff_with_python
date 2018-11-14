@@ -1,6 +1,6 @@
 #-*- coding: UTF-8 -*-
-name = 'Alice'
-age  = 10
+name = 'Aliced'
+age  = 13
 if name == 'Alice':
     print('Hi, Alice.')
 elif age < 12:
