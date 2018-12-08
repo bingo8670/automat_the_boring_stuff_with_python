@@ -5,7 +5,7 @@ print('I am thinking of a number between 1 and 1000.')
 # Ask the player to guess 6 times.
 for guessesTaken in range(1, 11):
     print('Take a guess.')
-    guess = int(raw_input())
+    guess = int(input())
     if guess < secretNumber:
         print('Your guess is too low')
     elif guess > secretNumber:

@@ -1,5 +1,5 @@
 name = ''
 while name != 'your name':
     print('Please type your name.')
-    name = raw_input()
+    name = input()
 print('Thank you!')

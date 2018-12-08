@@ -3,10 +3,10 @@
 
 print('Hello world!')
 print('What is your name?') # ask for their name
-myName = raw_input()  ## 用input不能运行
+myName = input()  ## python2用input不能运行, python3可以
 print('It is good to meet you, ' + myName)
 print('The length of your name is:')
 print(len(myName))
 print('What is your age?') # ask for their age
-myAge = raw_input()
+myAge = input()
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')

@@ -1,6 +1,6 @@
 while True:
     print('Please type your name.')
-    name = raw_input()
+    name = input()
     if name == 'your name':
         break
 print('Thank you!')
