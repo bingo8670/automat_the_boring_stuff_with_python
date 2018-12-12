@@ -1,5 +1,6 @@
 # coding:utf-8
 import re
+向 open()函数传入'r'，以读模式打开一个文本文件
 f1 = open('madlib.txt','r')
 strf1 = f1.read()
 print("原文件内容为：")
@@ -26,6 +27,7 @@ newstr = ' '.join(strf1_list)
 print("替换后的内容为：")
 #print(newstr)
 # 将新的字符串写入文件b.txt中，并打印到屏幕
+# 向 open()函数传入'w'，以写模式打开一个文本文件
 f2 = open('b.txt','w+')
 f2.write(newstr)
 f2.close()
